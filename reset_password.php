@@ -47,7 +47,7 @@ else {
         echo($email);
         ?>
         <br><br>
-        <label for="password">Mot de passe</label><br>
+        <label for="password">Nouveau mot de passe</label><br>
         <input type="password" id="password" name="password" value="<?=($_POST['password'] ?? '')?>" required><br><br>
         <label for="password">Confirmer mot de passe</label><br>
         <input type="password" id="password" name="password2" required><br><br>

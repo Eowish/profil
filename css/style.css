@@ -17,7 +17,7 @@ nav {
 }
 
 nav a {
-    border: solid 1px;
+
     color: black;
     text-decoration: none;
     padding: 0.5rem;
@@ -27,4 +27,14 @@ nav a {
 nav a:hover {
     background-color: rgb(90, 214, 236);
     transition: 0.2s ease-in-out;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+label {
+    background-color: red;
 }
